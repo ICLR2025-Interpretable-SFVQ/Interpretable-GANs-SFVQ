@@ -1,10 +1,8 @@
 # Unsupervised Panoptic Interpretation of Latent Spaces in GANs Using Space Filling Vector Quantization
 This repository contains the PyTorch implementation of the paper entitled "Unsupervised Panoptic Interpretation of Latent Spaces in GANs Using Space-Filling Vector Quantization" submitted to ICLR 2025.
 
-# demo directory
-This directory contains the demo to test and compare interpretable directions found by our proposed method, GANSpace, and LatentCLR methods in intermediate latent space (W) of StyleGAN2 pretrained on FFHQ dataset.
-
-## Guide for demo
+# demo
+This directory contains the demo to test and compare interpretable directions found by our proposed method, GANSpace, and LatentCLR methods in intermediate latent space (W) of StyleGAN2 pretrained on FFHQ dataset. To use the demo, please follow the steps below: 
 
 Please create the conda environment to use this repository using the following lines in your terminal window:
 
