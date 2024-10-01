@@ -6,9 +6,9 @@ This directory contains the demo to test and compare interpretable directions fo
 
 Please create the conda environment to use this repository using the following lines in your terminal window:
 
-`conda create --name wacv2025_sfvq python=3.9`
+`conda create --name iclr2025_sfvq python=3.9`
 
-`conda activate wacv2025_sfvq`
+`conda activate iclr2025_sfvq`
 
 `pip install -r requirements.txt`
 
