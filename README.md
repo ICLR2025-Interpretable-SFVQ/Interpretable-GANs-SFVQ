@@ -10,7 +10,7 @@ Please create the conda environment to use this repository using the following l
 
 `conda activate wacv2025_sfvq`
 
-`pip install -r requirments.txt`
+`pip install -r requirements.txt`
 
 Also, please download the StyleGAN2-FFHQ pretrained model under [this link.](https://drive.google.com/file/d/11nQSxaJJ4RQEZkSCFCC6wntQky4uZZhj/view?usp=sharing)
 
