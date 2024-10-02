@@ -13,6 +13,7 @@ Please create the conda environment to use this repository using the following l
 `pip install -r requirements.txt`
 
 Also, please download the StyleGAN2-FFHQ pretrained model under [this link.](https://drive.google.com/file/d/11nQSxaJJ4RQEZkSCFCC6wntQky4uZZhj/view?usp=sharing)
+Or you can download the StyleGAN2 pretrained model named "stylegan2-ffhq-1024x1024.pkl" directly from [NVIDIA website.](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/research/models/stylegan2/files)
 
 In addition, please extract the files existing in 'files.zip'. Please keep the pretrained model and extracted files in the same directory as "demo.py".
 
