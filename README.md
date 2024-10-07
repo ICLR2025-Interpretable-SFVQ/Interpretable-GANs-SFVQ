@@ -6,8 +6,8 @@ This directory contains the demo to test and compare interpretable directions fo
 
 **Contents of this directory:**
 - `comparison.pdf`: Comparison of our method over 20 random vectors with GANSpace and LatentCLR
-- `demo.py`: Code to create "comparison.pdf" file. You only need to change `num_random_samples` and `sigma_list` in the code.
-- `demo_one_direction.py`: Code to compare only one direction for one random sample. You only need to change `direction_name` and `sigma_list` in the code.
+- `demo.py`: Code to create "comparison.pdf" file. You only need to change the `num_random_samples` and `sigma_list` in the code.
+- `demo_one_direction.py`: Code to compare only one direction for one random sample. You only need to change the `direction_name` and `sigma_list` in the code.
 - `files.zip`: Required files to run the codes. 
 
 To use the demo, please follow the steps below: 
