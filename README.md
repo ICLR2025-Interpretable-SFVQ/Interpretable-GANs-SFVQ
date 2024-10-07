@@ -25,6 +25,6 @@ Or you can download the StyleGAN2 pretrained model named "stylegan2-ffhq-1024x10
 
 In addition, please extract the files existing in 'files.zip'. Please keep the pretrained model and extracted files in the same directory as `demo.py`.
 
-In `demo.py` code, you only need to change the `num_random_samples` and `sigma_list` variables to test interpretable directions over different random vectors and shift values ($\sigma$).
+In `demo.py` code, you only need to change the `num_random_samples` and `sigma_list` variables to test all interpretable directions over different random vectors and shift values ($\sigma$). The results will be saved in `comparison.pdf` file.
 
 To use CUDA, you need GCC 7 or later (Linux) or Visual Studio (Windows) compilers.
