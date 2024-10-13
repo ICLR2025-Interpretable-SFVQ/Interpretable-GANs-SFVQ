@@ -31,3 +31,10 @@ Or you can download the StyleGAN2 pretrained model named "stylegan2-ffhq-1024x10
 In addition, please extract the files existing in 'files.zip'. Please keep the pretrained model and extracted files in the same directory as `demo.py`.
 
 In `demo.py` code, you only need to change the `num_random_samples` and `sigma_list` variables to test all interpretable directions over different random vectors and shift values ($\sigma$). The results will be saved in `comparison.pdf` file.
+
+# Interpretable Directions
+- **StyleGAN2-AFHQ**: Discovered directions in pretrained StyleGAN2 on the AFHQ dataset.
+- **StyleGAN2-FFHQ**: Discovered directions in pretrained StyleGAN2 on the FFHQ dataset.
+- **StyleGAN2-LSUNCAR**: Discovered directions in pretrained StyleGAN2 on the LSUN Cars dataset.
+
+In each directory, there is a code named `manipulate.py` that can be used to test the discovered directions. You can download the pretrained models from [NVIDIA website.](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/research/models/stylegan2/files).
