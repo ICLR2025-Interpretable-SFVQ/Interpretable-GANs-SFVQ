@@ -117,10 +117,7 @@ for sigma_idx in range(len(sigma_list)):
 images_list = images_list_sfvq + images_list_gansapce + images_list_latentclr
 
 fig = plt.figure(figsize=(12, 6))
-grid = ImageGrid(fig, 111,  # similar to subplot(111)
-             nrows_ncols=(num_methods, num_sigmas),  # creates 2x2 grid of axes
-             axes_pad=0.01,  # pad between axes in inch.
-             )
+grid = ImageGrid(fig, 111, nrows_ncols=(num_methods, num_sigmas), axes_pad=0.01,)
 
 counter = 0
 xlabel_counter = 0
