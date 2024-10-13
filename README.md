@@ -1,6 +1,17 @@
 # Unsupervised Panoptic Interpretation of Latent Spaces in GANs Using Space Filling Vector Quantization
 This repository contains the PyTorch implementation of the paper entitled "Unsupervised Panoptic Interpretation of Latent Spaces in GANs Using Space-Filling Vector Quantization" submitted to ICLR 2025.
 
+# Requirements
+Please create the conda environment to use this repository using the following lines in your terminal window:
+
+`conda create --name iclr2025_sfvq python=3.9`
+
+`conda activate iclr2025_sfvq`
+
+`pip install -r requirements.txt`
+
+To use CUDA, you need GCC 7 or later (Linux) or Visual Studio (Windows) compilers.
+
 # demo
 This directory contains the demo to test and compare interpretable directions found by our proposed method, GANSpace, and LatentCLR methods in intermediate latent space (W) of pretrained StyleGAN2-FFHQ.
 
@@ -12,13 +23,7 @@ This directory contains the demo to test and compare interpretable directions fo
 
 To use the demo, please follow the steps below: 
 
-Please create the conda environment to use this repository using the following lines in your terminal window:
-
-`conda create --name iclr2025_sfvq python=3.9`
-
-`conda activate iclr2025_sfvq`
-
-`pip install -r requirements.txt`
+Please create the conda environment and its dependencies that mentioned above.
 
 Also, please download the StyleGAN2-FFHQ pretrained model under [this link.](https://drive.google.com/file/d/11nQSxaJJ4RQEZkSCFCC6wntQky4uZZhj/view?usp=sharing)
 Or you can download the StyleGAN2 pretrained model named "stylegan2-ffhq-1024x1024.pkl" directly from [NVIDIA website.](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/research/models/stylegan2/files)
@@ -26,5 +31,3 @@ Or you can download the StyleGAN2 pretrained model named "stylegan2-ffhq-1024x10
 In addition, please extract the files existing in 'files.zip'. Please keep the pretrained model and extracted files in the same directory as `demo.py`.
 
 In `demo.py` code, you only need to change the `num_random_samples` and `sigma_list` variables to test all interpretable directions over different random vectors and shift values ($\sigma$). The results will be saved in `comparison.pdf` file.
-
-To use CUDA, you need GCC 7 or later (Linux) or Visual Studio (Windows) compilers.
