@@ -38,3 +38,5 @@ In `demo.py` code, you only need to change the `num_random_samples` and `sigma_l
 - **StyleGAN2-LSUNCAR**: Discovered directions in pretrained StyleGAN2 on the LSUN Cars dataset.
 
 In each directory, there is a code named `manipulate.py` that can be used to test the discovered directions. You can download the pretrained models from [NVIDIA website.](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/research/models/stylegan2/files).
+
+# We are still updating the repository!
