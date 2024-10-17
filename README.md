@@ -39,4 +39,4 @@ In `demo.py` code, you only need to change the `num_random_samples` and `sigma_l
 
 In each directory, there is a code named `manipulate.py` that can be used to test the discovered directions. You can download the pretrained models from [NVIDIA website.](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/research/models/stylegan2/files).
 
-# We are still updating the repository!
+# We are still updating the repository for minor changes!
